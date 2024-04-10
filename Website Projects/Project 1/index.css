@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    color: white;
+    padding: 10px;
+    min-width: 9rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 25px;
+}
+  
+nav {
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background-color: white;
+}
+  
+.right-nav {
+      float: right;
+}
+  
+nav li {
+      list-style-type: none;
+      display: inline-block;
+}
+  
+.nav, .nav-logo {
+      margin: 8px;
+      padding: 3px;
+      font-size: auto;
+      font-style: bold;
+}
+  
+#logo {
+      padding-top: 1px;
+      padding-left: 10px;
+      max-width: 150px;
+      max-height: 150px;
+    
+}
+  
+#nav-button {
+      background-color: #c2195b;
+}
+
+#bg-image {
+    background: linear-gradient(rgba(246, 62, 62, 0.7), rgba(85, 127, 235, 0.7)), url("https://img.freepik.com/free-vector/organic-flat-world-blood-donor-day-illustration_23-2148932476.jpg?t=st=1712669094~exp=1712669694~hmac=cd2b05c00b6364552b9db24e0d887396a26bafdcae47e8e2effdd484fffd36b5");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.container {
+  text-align: right;
+  width: 40%;
+  position: relative;
+  left: 50%;
+}
+
+.title {
+  font-family: "Montez", cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-family: "IBM Plex Condensed", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  width: 75%;
+  margin-left: 9rem;
+  margin-top: 0.5rem;
+}
+
+#apply-button {
+  margin-top: 0.3rem;
+  background-color: #c2195b;
+}
+
+#main {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.title-2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.description {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+#book-button {
+  background-color: #336589;
+  margin-top: 40px;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+footer span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 300;
+}
+
+@keyframes wave-motion {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
